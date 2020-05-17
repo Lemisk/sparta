@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Homework_week1</title>
+
+    <style>
+        .title {
+            background-image: url('https://image.fmkorea.com/files/attach/new/20150307/2895716/4052127/134670196/899bda01c3d5f94043d1d9ed113e7164.jpg');
+            width: 400px;
+            height: 400px;
+            background-position: center;
+            margin: auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .name {
+            font-size 30px;
+            font-weight: bold;
+        }
+
+        .wrap {
+            width: 500px;
+            margin: auto;
+        }
+
+        body {
+            font-family: 'Sunflower', sans-serif;
+            text-align: center;
+        }
+        
+        .button {
+            margin:auto;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+    </style>
+    <script>
+        function hey() {
+            alert('주문이 완료되었습니다.');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="title"> </div>
+        <a class="name">한정판 피규어 판매 중.</a>
+        <a>가격: 49,900원/개</a>
+        <p>
+            간지나는 리미티드 에디션 액션 피규어 특가 할인 이벤트 진행 중
+        </p>
+        <div>
+            <div class="form-row align-items-center"></div>
+            <div class="col-auto"></div>
+            <div class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">주문자 이름</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup">
+            </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">수량</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected="">-- 수량을 선택하세요 --</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </div>
+        <div>
+            <div class="form-row align-items-center"></div>
+            <div class="col-auto"></div>
+            <class class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">주소</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup">
+            </class>
+        </div>
+        <div>
+            <div class="form-row align-items-center"></div>
+            <div class="col-auto"></div>
+            <class class="input-group mb-2">
+                <div class="input-group-prepend">
+                    <div class="input-group-text">전화번호</div>
+                </div>
+                <input type="text" class="form-control" id="inlineFormInputGroup">
+            </class>
+        </div>
+
+        <div class="button">
+            <button onclick=" hey()" type="button" class="btn btn-primary">주문하기</button>
+        </div>
+    </div>
+</body>
+
+</html>
